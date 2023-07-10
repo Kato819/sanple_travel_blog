@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+body {
+    color: #333;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+}
+
+@media screen and (min-width: 1080px) {
+
+}
+
+/* header */
+
+
+.l-header_logo{
+    height: 70px;
+    font-size: 30px;
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.l_header-nav{
+    height: 36px;
+    background: #000;
+}
+
+.l_header-nav_list{
+    display: flex;
+    color: #fff;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    gap: 60px;
+    align-items: center;
+}
+
+/* module */
+
+.post-btn{
+    font-size: 14px;
+    border-bottom: #000 1px solid;
+}
+
+.post-btn-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* pickup */
+
+.top-pickup{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.post_pickup{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1080px) {
+    .posts_pickup{
+        display: flex;
+        gap: 5%;
+    }
+}
+
+
+
+@media screen and (min-width: 1080px) {
+    .posts_pickup .post{
+        width: 30%;
+    }
+}
+
+/* container */
+
+.top-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1080px) {
+    .top-container{
+        display: flex;
+        gap: 5%;
+    }
+}
+
+
+/* main */
+
+.post_main{
+    margin-bottom: 80px;
+}
+
+.post_main h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.post_info{
+    display: flex;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+
+
+.post_info_item:first-child{
+    margin-right: 20px;
+}
+
+/* aside */
+
+
+
+@media screen and (min-width: 1080px) {
+    .l-aside{
+    width: 50%;
+}
+}
+
+.profile-img{
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    background-image: url("../img/about.jpg");
+    background-position: 50% 60%;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.l-section_author h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.profile-img{
+    text-align: center;
+}
+
+.profile-img img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.post_aside{
+    margin-top: 30px;
+}
+
+.l-section_ranking h3{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 30px;
+}
+
+
+.l-section_archive h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0 30px;
+}
+
+.archive-item{
+    padding: 20px 0 20px;
+    border-top: #000 1px solid ;
+    font-size: 14px;
+}
+
+.archive-item:last-child{
+    border-bottom: 1px solid #000;
+}
+
+/* footer */
+
+.l_footer{
+    margin-top: 100px;
+    background: #F7F7F7;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1080px) {
+    .l_footer{
+        height: 499px;
+    }
+}
+
+.l-footer_content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1080px) {
+    .l-footer_content{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.l-footer_item{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1080px) {
+    .l-footer_item{
+        width: 25%;
+    }
+}
+
+.l-footer_title{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px 0 30px;
+}
+
+.l-footer_about_list{
+    margin-top: 20px;
+}
+
+.l-footer_menu_item{
+    padding: 10px 0 10px;
+    border-top: #000 1px solid ;
+}
+
+.l-footer_menu_item:last-child{
+    border-bottom: 1px solid #000;
+}
+
+.twitter-url{
+    background: #DEDEDE;
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1080px) {
+    .twitter-url{
+        width: 20vw;
+        height: 20vw;
+    }
+}
